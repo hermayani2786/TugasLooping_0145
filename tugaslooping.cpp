@@ -48,3 +48,12 @@ void tampilPrima() {
         cout << n << " bukan bilangan prima.\n";
     }
 }
+
+// Prosedur tampil hasil Fibonacci
+void tampilFibonacci() {
+    if (isFibonacci(n)) {
+        cout << n << " adalah bilangan Fibonacci.\n";
+    } else {
+        cout << n << " bukan bilangan Fibonacci.\n";
+    }
+}
