@@ -15,3 +15,6 @@ bool isPrima(int x){
             return false;
         }
         i++;
+    }
+    return true;
+}
