@@ -39,3 +39,12 @@ void inputAngka(){
     cout << "Masukkan angka: ";
     cin >> n;
 }
+
+// Prosedur tampil hasil prima
+void tampilPrima() {
+    if (isPrima(n)) {
+        cout << n << " adalah bilangan prima.\n";
+    } else {
+        cout << n << " bukan bilangan prima.\n";
+    }
+}
